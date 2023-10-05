@@ -1,7 +1,10 @@
+*{
+scroll-behavior: smooth;
 
+}
 /* Styles for the custom header */
 .custom-header {
-    background-color: #011a2f;
+    background-color: #1e88df;
     color: #fff;
     padding: 5px 0;
     text-align: center;
@@ -21,15 +24,12 @@
     text-decoration: none;
     text-align: center;
 }
-.menu i{
 
-font-size: 25px;
-}
 .menu{
     margin-left: 950px;
 margin-top: -20px;
 cursor: pointer;
-
+font-size: 25px;
 }
 
 .custom-header .custom-menu-button {
@@ -132,8 +132,8 @@ position: relative;
 
 /* Styles for the custom cards */
 .custom-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #f7f7f8;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     margin: 5px;
     padding: 20px;
@@ -148,19 +148,19 @@ position: relative;
 
 .custom-card .custom-card-title {
     font-size: 24px;
-    color: #333;
+    color: #000000;
 }
 
 .custom-card .custom-card-description {
     font-size: 16px;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 /* Styles for the custom footer */
 .custom-footer {
     background-color: #333;
-    color: #fff;
+    color: #f2efef;
     padding: 20px 0;
     text-align: left;
 }
@@ -179,17 +179,25 @@ position: relative;
     text-decoration: none;
 }
 .GoUP{
-    
-    color: #007bff;
-    text-align: right;
+    background-color: #007bff;
     font-size: 14px;
     text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+    float: right;
+    margin-top: -5%;
     
 }
 
+
+/*.GoUP:active{
+    color: #e706c2;
+}*/
+
 .custom-hero{
     position: relative; 
-    background: url("background.jpg") ; 
-    background-repeat: repeat-x;
+    background: url("images/background4.jpg") ; 
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
