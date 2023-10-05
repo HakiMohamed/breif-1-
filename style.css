@@ -1,0 +1,195 @@
+
+/* Styles for the custom header */
+.custom-header {
+    background-color: #011a2f;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.custom-header .custom-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-header .custom-logo {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.menu i{
+
+font-size: 25px;
+}
+.menu{
+    margin-left: 950px;
+margin-top: -20px;
+cursor: pointer;
+
+}
+
+.custom-header .custom-menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Styles for the custom hero section */
+.custom-hero {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.custom-hero .custom-hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-hero .custom-hero-title {
+    font-size: 36px;
+    color: #f3f2f2;
+}
+
+.custom-hero .custom-hero-description {
+    font-size: 18px;
+    color: #f9f5f5;
+}
+
+/* Styles for the custom buttons */
+.custom-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  
+}
+
+.custom-accuele-btn{
+    background-color: #007bff;
+    color: #fff;
+    margin-right:600;
+    border-radius: 30px;
+    position: relative;
+    right: 30px;
+}
+.custom-prix-btn{
+padding: 5px 3px;
+background-color:#71bb7b;
+color: #fff;
+margin-right:100;
+border-radius: 5px;
+position: relative;
+ left: 50px;
+}
+.custom-primary-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-right:600;
+    border-radius: 30px;
+    position: relative;
+    right: 50px;
+    
+}
+.custom-primary-btn:hover{
+
+    background-color: rgb(11, 171, 8);
+
+}
+
+.custom-secondary-btn {
+    background-color: #6c757d;
+    color: #efecec;
+}
+#cam{
+    font-size: 23px;
+}
+#toggleButton{
+    font-size: 25px;
+    
+    cursor: pointer;
+    
+} 
+
+/* Styles for the custom album section */
+.custom-album {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.custom-album .custom-album-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for the custom cards */
+.custom-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.custom-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-card .custom-card-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.custom-card .custom-card-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Styles for the custom footer */
+.custom-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.custom-footer .custom-footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-footer .custom-footer-text {
+    font-size: 14px;
+}
+
+.custom-footer .custom-footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.GoUP{
+    
+    color: #007bff;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.custom-hero{
+    position: relative; 
+    background: url("background.jpg") ; 
+    background-repeat: repeat-x;
+
+}
